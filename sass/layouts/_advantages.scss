@@ -1,0 +1,25 @@
+.advantages-pic {
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    background-color: var(--light-bg-col);
+}
+
+.advantages-list {
+    --card-item: 4;
+}
+
+.advantages-subtitle {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.15;
+    text-transform: uppercase;
+    color: var(--secondary-font-color);
+}
+
+.advantages {
+    padding-bottom: 47px;
+}

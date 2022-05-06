@@ -1,0 +1,112 @@
+.address-item:not(:last-child) {
+    margin-bottom: 9px;
+}
+.address-link {
+    color: var(--footer-contacts-color);
+    transition: var(--transition);
+    font-style: normal;
+    &[target="_blank"] {
+        color: var(--color-white);
+    }
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
+}
+
+.footer {
+    width: 100%;
+    background-color: var(--dark-bg-col);
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    & .social-link {
+        color: var(--color-white);
+    }
+}
+
+.footer-div {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-item:not(:last-child) {
+    margin-right: 70px;
+}
+
+.footer-item:last-child {
+    margin-left: auto;
+}
+
+.footer-social-subtitle {
+    color: var(--color-white);
+    text-transform: uppercase;
+    font-size: inherit;
+    margin-bottom: 20px;
+    display: block;
+    font-weight: 700;
+}
+
+
+
+.footer-email {
+    margin-left: 93px;
+    min-width: 570px;
+}
+
+.email-subscription-input {
+    display: block;
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    width: 358px;
+    min-height: 50px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    padding-left: 15px;
+    transition: border-color var(--transition);
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+.email-subscription-input:hover,
+.email-subscription-input:focus {
+    outline: none;
+    border-color: var(--accent-color);
+}
+
+.email-subscription-form {
+    display: block;
+}
+
+.footer-email-input-btn-box {
+    display: flex;
+}
+
+.contact-form-submit-btn:focus,
+.contact-form-submit-btn:hover,
+.email-subscription-form-btn:hover,
+.email-subscription-form-btn:focus {
+    background-color: var(--accent-color-modal-btn);
+}
+
+.subcribe-icon {
+    fill: currentColor;
+
+}
+
+.subcribe-icon-wrapper {
+    display: flex;
+    margin-left: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+// .footer-input-btn-box {
+//     display: flex;
+// }

@@ -15,7 +15,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
   </head>
   <body>
     <header class="header">
@@ -336,10 +337,10 @@
     <footer class="footer">
       <div class="container footer-div">
         <div class="footer-item">
-          <a class="logo link logo-footer" href="./index.html" lang="en"
+          <a class="logo link" href="./index.html" lang="en"
             >Web<span class="logo-light">Studio</span>
           </a>
-          <address class="adress">
+          <address class="address">
             <ul class="list">
               <li class="address-item">
                 <a
@@ -365,7 +366,7 @@
         </div>
         <div class="footer-item">
           <h3 class="footer-social-subtitle">Присоединяйтесь</h3>
-          <ul class="team-social-list list">
+          <ul class="social-list list">
             <li class="social-item">
               <a
                 class="social-link link"
@@ -417,29 +418,32 @@
           </ul>
         </div>
         <div class="footer-item">
-          <form class="email-subscription-form" >
-            <label for="email-subscription-input" class="footer-email-subtitle"> 
-              <span class="footer-social-subtitle">подпишитесь на рассылку</span>  
-            </label> 
-            <div class="footer-email-input-btn-box">          
-              <input 
-              id="email-subscription-input"
-                type="email" 
-                name="user_email_subscription" 
+          <form class="email-subscription-form">
+            <label for="email-subscription-input">
+              <span class="footer-social-subtitle"
+                >подпишитесь на рассылку</span
+              >
+            </label>
+            <div class="footer-email-input-btn-box">
+              <input
+                id="email-subscription-input"
+                type="email"
+                name="user_email_subscription"
                 class="email-subscription-input"
-                placeholder="E-mail">               
-              <button type="submit" class="modal-btn">Подписаться
-                  <span class="subcribe-icon-wrapper">
-                    <svg class="subcribe-icon" width="24" height="24">
-                      <use href="./images/sprite.svg#subscribe"></use>
-                    </svg>
-                  </span>
-              </button> 
-            </div>         
+                placeholder="E-mail"
+              />
+              <button type="submit" class="modal-btn">
+                Подписаться
+                <span class="subcribe-icon-wrapper">
+                  <svg class="subcribe-icon" width="24" height="24">
+                    <use href="./images/sprite.svg#subscribe"></use>
+                  </svg>
+                </span>
+              </button>
+            </div>
           </form>
         </div>
       </div>
     </footer>
-    
   </body>
 </html>
